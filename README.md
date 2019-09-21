@@ -1,0 +1,7 @@
+- Activate venv
+- pip install -r requirements.txt
+- flask setup:flaskenv
+- flask db init
+- flask db migrate -m 'Your message here.'
+- flask db upgrade
+- Open a flask shell and type in AddMarcos() if you want to seed the db with paltry info
